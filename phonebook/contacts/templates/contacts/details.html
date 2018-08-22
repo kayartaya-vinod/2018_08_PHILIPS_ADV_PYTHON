@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>Details of contact with id {{ contact.id }} </h1>
+
+	<a href="{% url 'home' %}">Home</a> | 
+	<a href="{% url 'view_contacts' %}">View all contacts</a>
+
+
+	<hr>
+	<div>
+		<strong>Name: </strong>
+		<span>{{ contact.name }} </span>
+	</div>
+	<div>
+		<strong>Address: </strong>
+		<span>{{ contact.address }} </span>
+	</div>
+	<div>
+		<strong>Email id: </strong>
+		<span>{{ contact.email }} </span>
+	</div>
+	<div>
+		<strong>Phone number: </strong>
+		<span>{{ contact.phone }} </span>
+	</div>
+
+</body>
+</html>
+
+
+
+
+

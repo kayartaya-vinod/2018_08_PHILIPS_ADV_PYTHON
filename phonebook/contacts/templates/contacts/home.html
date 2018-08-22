@@ -1,0 +1,16 @@
+<!-- contacts/templates/contacts/home.html -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{ title }}</title>
+</head>
+<body>
+	<h1>{{ title }}</h1>
+	<hr>
+	<p>Developed by {{ developer }} ( {{ developer_email }} )</p>
+
+	<p>
+		Click here to <a href="{% url 'view_contacts' %}">View all contacts</a>
+	</p>
+</body>
+</html>
